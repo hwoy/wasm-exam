@@ -6,11 +6,21 @@
 - string_wasm: Send & Receive string between wasm and js.
 
 ### Bare bone WebAssembly
-- Platform: rustup target add wasm32-unknown-unknown
+- Platform: wasm32-unknown-unknown
+```sh
+
+$ rustup target add wasm32-unknown-unknown
+
+```
 - Runtime engine: node.js
 
 ### WASI
-- Platform: rustup target add wasm32-wasi
+- Platform: wasm32-wasi
+```sh
+
+$ rustup target add wasm32-wasi
+
+```
 - Runtime engine: wasmer/wasmtime
 
 ### Contact me
