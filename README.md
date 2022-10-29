@@ -12,7 +12,7 @@
 $ rustup target add wasm32-unknown-unknown
 
 ```
-- Runtime engine: node.js
+- Runtime engine: Deno
 
 ### WASI
 - Platform: wasm32-wasi
