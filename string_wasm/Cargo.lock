@@ -3,5 +3,13 @@
 version = 3
 
 [[package]]
+name = "barebone"
+version = "0.1.0"
+source = "git+https://gitlab.com/hwoy/barebone.git#e872b3dcf4c10b7c65893f6f620d951141507d00"
+
+[[package]]
 name = "string_wasm"
 version = "0.1.0"
+dependencies = [
+ "barebone",
+]

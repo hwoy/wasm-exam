@@ -7,4 +7,5 @@ edition = "2021"
 
 [dependencies]
 libprime = {path="../libprime"}
+barebone = {git="https://gitlab.com/hwoy/barebone.git"}
 

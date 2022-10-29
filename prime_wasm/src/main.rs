@@ -1,6 +1,8 @@
 #![no_main]
 
-#[no_mangle]
-pub extern "C" fn isPrime(num: u32) -> u32 {
+use barebone::export_cffi;
+
+#[export_cffi]
+fn isPrime(num: u32) -> u32 {
     libprime::is_prime(num) as u32
 }
